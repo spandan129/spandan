@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header-area">
+    <div class="header-container">
+        <div class="site-logo">
+            <a href="#">SPAN<span>DAN</span></a>
+        </div>
+        <div class="mobile-nav">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="site-nav-menu">
+            <ul class="primary-menu">
+<li><a href="index.html" class="active">Home</a></li>
+<li><a href="aboutme.html" class="active">About Me </a></li>
+<li><a href="projects.html" class="active">My Services</a></li>
+<li><a href="contactme.html" class="active">Contact Me</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+        <div class="service">
+            <div class="service1">
+            <h1>My <span>Services</span></h1>
+        </div>
+        <div class="service00">
+              <div class="service-box">
+                <h3>Web Development</h3>
+                <p>My web development services are tailored to meet the specific needs of your business. I work with you to create a website that reflects your brand and provides an engaging user experience.</p>
+              </div>
+              <div class="service-box">
+                <h3>Front-End Development</h3>
+                <p>As a front-end developer, I specialize in creating visually appealing and user-friendly websites. Using HTML, CSS, and JavaScript.</p>
+              </div>
+              <div class="service-box">
+                <h3>E-commerce Website</h3>
+                <p>I facilitate daily website updates, ensuring your site remains dynamic and responsive to changes, empowering you to make seamless modifications as needed.</p>
+              </div>
+            </div>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".mobile-nav i").click(function(){
+           $(".site-nav-menu").toggleClass("mobile-menu");
+        });
+    })
+</script>
+</body>
+</html>

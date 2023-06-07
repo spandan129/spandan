@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <header class="header-area">
+        <div class="header-container">
+            <div class="site-logo">
+                <a href="index.html">SPAN<span>DAN</span></a>
+            </div>
+            <div class="mobile-nav">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="site-nav-menu">
+                <ul class="primary-menu">
+<li><a href="index.html" class="active">Home</a></li>
+<li><a href="aboutme.html" class="active">About Me </a></li>
+<li><a href="projects.html" class="active">My Services</a></li>
+<li><a href="contactme.html" class="active">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+   
+    <div class="intro0">
+    <div class="intro">
+        <h3>Hello, my name is</h3>
+        <h1>Spandan <span>Bhattarai</span></h1>
+        <h2>I'm a developer.</h2>
+    <div class="intro1">
+        <form>
+            <input type="email" name="email" class="mail" placeholder="Enter your email">
+            <input id="botton" type="submit" name="submit"  value="Lets Start">
+        </form>
+    </div>
+    </div>
+    <div class="cube">
+		<div class="top"></div>
+  <div>
+	<span style="--i:0;"></span>
+	<span style="--i:1;"></span>
+	<span style="--i:2;"></span>
+	<span style="--i:3;"></span>
+  </div>
+	</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".mobile-nav i").click(function(){
+           $(".site-nav-menu").toggleClass("mobile-menu");
+        });
+    })
+</script>
+</body>
+</html>
